@@ -25,7 +25,7 @@ function driversByName(drivers) {
   let newDriver = [...drivers]
     
   let sortedDrivers = newDriver.sort(function(a, z) {
-    return a.localeCompare
+    return a.localeCompare(z)
   })
   return sortedDrivers
 
