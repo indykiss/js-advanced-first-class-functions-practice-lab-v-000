@@ -30,7 +30,7 @@ function driversByName(drivers) {
   return sortedDrivers;
 }
 
-function totalRevenue() {
+const totalRevenue() {
   
 }
 
