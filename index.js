@@ -24,7 +24,7 @@ function driversByRevenue(drivers) {
 function driversByName(drivers) {
   let newDriver = [...drivers]
     
-  let sortedDrivers = newDriver.sort(function(high, low) {
+  let sortedDrivers = newDriver.sort(function(a, z) {
     return 
   })
   return sortedDrivers
